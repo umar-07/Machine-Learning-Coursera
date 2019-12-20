@@ -50,6 +50,5 @@ def normalEqn(X, y):
 #Calculating through Normal Equation
 theta = normalEqn(X, y)
 X_array = [1, 1650, 3]
-X_array = [1, 1650, 3]
 X_array[1:3] = (X_array[1:3] - mu) / sigma          #We are normalizing input again, we will have to do this
 price = np.dot(X_array, theta)                      #whenever we take input as the input is not in normalized range
