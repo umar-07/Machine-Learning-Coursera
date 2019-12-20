@@ -43,7 +43,7 @@ def gradientDescent(X, y, theta, alpha, iterations):
 #Noraml Equation (Method 2)
 
 def normalEqn(X, y):
-    tehta = np.zeros(X.shape[1])
+    theta = np.zeros(X.shape[1])
     theta = np.dot(np.dot(np.linalg.inv(np.dot(X.T,X)),X.T),y)
     return theta
 
